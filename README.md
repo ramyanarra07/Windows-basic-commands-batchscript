@@ -76,7 +76,7 @@ Create a batch script named "BackupScript.bat" that creates a backup of files wi
 Open a notepad file named BackupScript.bat and enter the following:
 
 ## COMMAND
-```
+
 @echo off
 
 mkdir %userprofile%\Desktop\DocBackup
@@ -85,7 +85,6 @@ copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
 
 echo Backup completed successfully!
 
-```
 
 
 
